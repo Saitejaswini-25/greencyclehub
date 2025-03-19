@@ -7,6 +7,6 @@ send_mail(
     "Test Email",
     "This is a test email from Django.",
     os.getenv('EMAIL_HOST_USER'),
-    ["sainadh2512@gmail.com"],  # Replace with the recipient email
+    ["recipient @gmail.com"],  # Replace with the recipient email
     fail_silently=False,
 )
