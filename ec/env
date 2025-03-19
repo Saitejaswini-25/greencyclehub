@@ -1,0 +1,5 @@
+SECRET_KEY=25160804
+DEBUG=True
+ALLOWED_HOSTS = ['*']  # Allow all hosts (Not recommended for production)
+
+
