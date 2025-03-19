@@ -107,8 +107,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER='greencyclehub1625@gmail.com'
-EMAIL_HOST_PASSWORD='mruu nuht ioit ntpm'
+EMAIL_HOST_USER='mailid'
+EMAIL_HOST_PASSWORD='password'
 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER  # Set default email sender
 AUTHENTICATION_BACKENDS = (
@@ -130,8 +130,8 @@ SOCIAL_AUTH_PIPELINE = (
     'social_core.pipeline.user.user_details',
 )
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = "44183989570-3p96arq0b1i9lqg8idecosoc9sc6u7qs.apps.googleusercontent.com"
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = "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"
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = "client id
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = "client secret"
 SOCIAL_AUTH_GOOGLE_OAUTH2_REDIRECT_URI = "http://localhost:8000/auth/complete/google/"
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = ['email', 'profile']
